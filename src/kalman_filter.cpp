@@ -50,27 +50,29 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
     * update the state by using Extended Kalman Filter equations
   */
 
-  //cal J
-  double px = x_(0);
-  double py = x_(1);
-  double vx = x_(2);
-  double vy = x_(3);
-
-  //pre-compute a set of terms to avoid repeated calculation
-  double c1 = px*px+py*py;
-  double c2 = sqrt(c1);
-  double c3 = (c1*c2);
-
-  if(fabs(c1) < 0.0001) {
-    std::cout << "CalculateJacobian () - Error - Division by Zero" << std::endl;
-    H_ = MatrixXd(3,4);
+  VectorXd z_pred(3);
+    double roi = sqrt(x_(0)* x_(0) + x_(1)* x_(1));
+    double arctan = atan2(x_(1), x_(0));
+    double phi = 0;
+  if (x_(0)*x_(0) + x_(1)*x_(1) == 0){
+    phi = (x_(0)*x_(2) + x_(1)*x_(3))/(sqrt(x_(0)*x_(0) + x_(1)*x_(1) ));
+  } else{
+    phi = 0;
   }
 
-  //compute the Jacobian matrix
-  H_ << (px/c2), (py/c2), 0, 0,
-          -(py/c1), (px/c1), 0, 0,
-          py*(vx*py - vy*px)/c3, px*(px*vy - py*vx)/c3, px/c2, py/c2;
+  z_pred<<roi, arctan, phi;
 
-  Update(z);
+  // norm arctan
+  double P2 = 2*M_PI;
+  z_pred(1) = z_pred(1) - floor( z_pred(1)/ P2) * P2 - M_PI;
+
+  VectorXd y = z -  z_pred;
+  MatrixXd S = H_ * P_ * H_.transpose() + R_;
+  MatrixXd K = P_ * H_.transpose() * S.inverse();
+
+  x_ = x_ + K*y;
+  long x_size = x_.size();
+  MatrixXd I = MatrixXd::Identity(x_size, x_size);
+  P_ = (I - K*H_)*P_;
 
 }
