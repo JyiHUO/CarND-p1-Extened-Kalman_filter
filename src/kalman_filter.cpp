@@ -51,24 +51,25 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
     * update the state by using Extended Kalman Filter equations
   */
 
+  double px = x_(0);
+  double py = x_(1);
+  double vx = x_(2);
+  double vy = x_(3);
   VectorXd z_pred(3);
-    double roi = sqrt(x_(0)* x_(0) + x_(1)* x_(1));
-    double arctan = atan2(x_(1), x_(0));
-    double phi = 0;
-  if (fabs(x_(0)*x_(0) + x_(1)*x_(1)) < 0.0001){
-    phi = (x_(0)*x_(2) + x_(1)*x_(3))/(sqrt(x_(0)*x_(0) + x_(1)*x_(1) ));
-  } else{
-    phi = 0;
-  }
+    double rho = sqrt(px*px + py*py); // sqrt(x_(0)* x_(0) + x_(1)* x_(1));
+    double arctan = atan2(py, px); // atan2(x_(1), x_(0));
+    double rho_dot = (px * vx + py * vy) / std::max(rho, 0.0001);;
 
-  z_pred<<roi, arctan, phi;
+  z_pred<<rho, arctan, rho_dot;
 
   // norm arctan
-  double P2 = 2*M_PI;
-  z_pred(1) = z_pred(1) - floor( z_pred(1)/ P2) * P2 - M_PI;
+  //double P2 = 2*M_PI;
+  //z_pred(1) = z_pred(1) - floor( z_pred(1)/ P2) * P2 - M_PI;
 
     MatrixXd Ht = H_.transpose();
   VectorXd y = z -  z_pred;
+    y(1) = atan2(sin(y(1)), cos(y(1)));
+    std::cout<<y(1)<<"$$$$$$$$$$$$$$$$$$$$$$$$$$$"<<std::endl;
   MatrixXd S = H_ * P_ * Ht + R_;
   MatrixXd K = P_ * Ht * S.inverse();
 
