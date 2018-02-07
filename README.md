@@ -59,3 +59,19 @@ $$
 
 ![C6BA8015-C10B-4AAC-B5BC-26640C0A0CEA.png](./C6BA8015-C10B-4AAC-B5BC-26640C0A0CEA.png)
 
+## 最后一次review的启发
+
+**你可能认为：有radar measurement就足够啦，位置速度都有了，还需要update么？**
+
+但是这里的[discussion](https://discussions.udacity.com/t/mapping-from-radar-measurement-to-state-px-py-v-yaw-yaw-rate/237746)说得很清楚。`yaw != phi`
+
+- phi只是行人相对于车的角度，并不是行人的速度朝向角度
+
+
+![0D71E2D5-7288-433B-A2AD-E4DC727DD1BE.png](./0D71E2D5-7288-433B-A2AD-E4DC727DD1BE.png)
+
+- yaw是车的速度朝向角度
+
+![screenshot-from-2017-02-27-20-45-49.png](./screenshot-from-2017-02-27-20-45-49.png)
+
+**所以radar measurement 无法知道物体的速度，物体的速度也需要用kalman filter来推断，真的很棒。kalman filter的设置真的很巧妙。**

@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is AppleClang, found in "/Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out"
+The C compiler identification is AppleClang, found in "/Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
@@ -23,35 +23,35 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is AppleClang, found in "/Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out"
+The CXX compiler identification is AppleClang, found in "/Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8d466/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8d466.dir/build.make CMakeFiles/cmTC_8d466.dir/build
-Building C object CMakeFiles/cmTC_8d466.dir/testCCompiler.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_8d466.dir/testCCompiler.c.o   -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_8d466
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d466.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8d466.dir/testCCompiler.c.o  -o cmTC_8d466 
+Run Build Command:"/usr/bin/make" "cmTC_52559/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_52559.dir/build.make CMakeFiles/cmTC_52559.dir/build
+Building C object CMakeFiles/cmTC_52559.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_52559.dir/testCCompiler.c.o   -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_52559
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52559.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_52559.dir/testCCompiler.c.o  -o cmTC_52559 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2005b/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2005b.dir/build.make CMakeFiles/cmTC_2005b.dir/build
-Building C object CMakeFiles/cmTC_2005b.dir/CMakeCCompilerABI.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_2005b.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_2005b
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2005b.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2005b.dir/CMakeCCompilerABI.c.o  -o cmTC_2005b 
+Run Build Command:"/usr/bin/make" "cmTC_006ee/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_006ee.dir/build.make CMakeFiles/cmTC_006ee.dir/build
+Building C object CMakeFiles/cmTC_006ee.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_006ee.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_006ee
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_006ee.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_006ee.dir/CMakeCCompilerABI.c.o  -o cmTC_006ee 
 Apple LLVM version 9.0.0 (clang-900.0.39.2)
 Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_2005b -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2005b.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_006ee -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_006ee.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-305
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
@@ -64,20 +64,20 @@ Framework search paths:
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2005b/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2005b.dir/build.make CMakeFiles/cmTC_2005b.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_2005b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_2005b.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_2005b]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2005b.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2005b.dir/CMakeCCompilerABI.c.o  -o cmTC_2005b ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_006ee/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_006ee.dir/build.make CMakeFiles/cmTC_006ee.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_006ee.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_006ee.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_006ee]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_006ee.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_006ee.dir/CMakeCCompilerABI.c.o  -o cmTC_006ee ]
   ignore line: [Apple LLVM version 9.0.0 (clang-900.0.39.2)]
   ignore line: [Target: x86_64-apple-darwin17.4.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_2005b -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2005b.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_006ee -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_006ee.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -88,11 +88,11 @@ Parsed C implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2005b] ==> ignore
+    arg [cmTC_006ee] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_2005b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_006ee.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/usr/lib;/usr/local/lib]
@@ -111,15 +111,15 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bc4f6/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bc4f6.dir/build.make CMakeFiles/cmTC_bc4f6.dir/build
-Building C object CMakeFiles/cmTC_bc4f6.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_bc4f6.dir/feature_tests.c.o   -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bc4f6
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc4f6.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bc4f6.dir/feature_tests.c.o  -o cmTC_bc4f6 
+Run Build Command:"/usr/bin/make" "cmTC_41a56/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_41a56.dir/build.make CMakeFiles/cmTC_41a56.dir/build
+Building C object CMakeFiles/cmTC_41a56.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_41a56.dir/feature_tests.c.o   -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_41a56
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41a56.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_41a56.dir/feature_tests.c.o  -o cmTC_41a56 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -129,15 +129,15 @@ Linking C executable cmTC_bc4f6
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c4135/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c4135.dir/build.make CMakeFiles/cmTC_c4135.dir/build
-Building C object CMakeFiles/cmTC_c4135.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_c4135.dir/feature_tests.c.o   -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c4135
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4135.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c4135.dir/feature_tests.c.o  -o cmTC_c4135 
+Run Build Command:"/usr/bin/make" "cmTC_1e2eb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1e2eb.dir/build.make CMakeFiles/cmTC_1e2eb.dir/build
+Building C object CMakeFiles/cmTC_1e2eb.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_1e2eb.dir/feature_tests.c.o   -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1e2eb
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e2eb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1e2eb.dir/feature_tests.c.o  -o cmTC_1e2eb 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -147,15 +147,15 @@ Linking C executable cmTC_c4135
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2d934/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2d934.dir/build.make CMakeFiles/cmTC_2d934.dir/build
-Building C object CMakeFiles/cmTC_2d934.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_2d934.dir/feature_tests.c.o   -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2d934
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d934.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2d934.dir/feature_tests.c.o  -o cmTC_2d934 
+Run Build Command:"/usr/bin/make" "cmTC_8fd46/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8fd46.dir/build.make CMakeFiles/cmTC_8fd46.dir/build
+Building C object CMakeFiles/cmTC_8fd46.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_8fd46.dir/feature_tests.c.o   -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8fd46
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fd46.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8fd46.dir/feature_tests.c.o  -o cmTC_8fd46 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -163,32 +163,32 @@ Linking C executable cmTC_2d934
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f4b03/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f4b03.dir/build.make CMakeFiles/cmTC_f4b03.dir/build
-Building CXX object CMakeFiles/cmTC_f4b03.dir/testCXXCompiler.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_f4b03.dir/testCXXCompiler.cxx.o -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_f4b03
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4b03.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f4b03.dir/testCXXCompiler.cxx.o  -o cmTC_f4b03 
+Run Build Command:"/usr/bin/make" "cmTC_9a3c9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9a3c9.dir/build.make CMakeFiles/cmTC_9a3c9.dir/build
+Building CXX object CMakeFiles/cmTC_9a3c9.dir/testCXXCompiler.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_9a3c9.dir/testCXXCompiler.cxx.o -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_9a3c9
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a3c9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9a3c9.dir/testCXXCompiler.cxx.o  -o cmTC_9a3c9 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cb81e/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cb81e.dir/build.make CMakeFiles/cmTC_cb81e.dir/build
-Building CXX object CMakeFiles/cmTC_cb81e.dir/CMakeCXXCompilerABI.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_cb81e.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_cb81e
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb81e.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cb81e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cb81e 
+Run Build Command:"/usr/bin/make" "cmTC_8ed39/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8ed39.dir/build.make CMakeFiles/cmTC_8ed39.dir/build
+Building CXX object CMakeFiles/cmTC_8ed39.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_8ed39.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_8ed39
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ed39.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_8ed39.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8ed39 
 Apple LLVM version 9.0.0 (clang-900.0.39.2)
 Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_cb81e -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cb81e.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_8ed39 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8ed39.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-305
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
@@ -201,20 +201,20 @@ Framework search paths:
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cb81e/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cb81e.dir/build.make CMakeFiles/cmTC_cb81e.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_cb81e.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_cb81e.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_cb81e]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb81e.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cb81e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cb81e ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8ed39/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8ed39.dir/build.make CMakeFiles/cmTC_8ed39.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_8ed39.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_8ed39.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_8ed39]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ed39.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_8ed39.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8ed39 ]
   ignore line: [Apple LLVM version 9.0.0 (clang-900.0.39.2)]
   ignore line: [Target: x86_64-apple-darwin17.4.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_cb81e -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cb81e.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_8ed39 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8ed39.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -225,11 +225,11 @@ Parsed CXX implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_cb81e] ==> ignore
+    arg [cmTC_8ed39] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_cb81e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_8ed39.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
     arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
@@ -249,15 +249,15 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d4b2f/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d4b2f.dir/build.make CMakeFiles/cmTC_d4b2f.dir/build
-Building CXX object CMakeFiles/cmTC_d4b2f.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_d4b2f.dir/feature_tests.cxx.o -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d4b2f
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4b2f.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d4b2f.dir/feature_tests.cxx.o  -o cmTC_d4b2f 
+Run Build Command:"/usr/bin/make" "cmTC_c2b9f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c2b9f.dir/build.make CMakeFiles/cmTC_c2b9f.dir/build
+Building CXX object CMakeFiles/cmTC_c2b9f.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c2b9f.dir/feature_tests.cxx.o -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c2b9f
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2b9f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c2b9f.dir/feature_tests.cxx.o  -o cmTC_c2b9f 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -320,15 +320,15 @@ Linking CXX executable cmTC_d4b2f
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_12779/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_12779.dir/build.make CMakeFiles/cmTC_12779.dir/build
-Building CXX object CMakeFiles/cmTC_12779.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_12779.dir/feature_tests.cxx.o -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_12779
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12779.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_12779.dir/feature_tests.cxx.o  -o cmTC_12779 
+Run Build Command:"/usr/bin/make" "cmTC_fedcf/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fedcf.dir/build.make CMakeFiles/cmTC_fedcf.dir/build
+Building CXX object CMakeFiles/cmTC_fedcf.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_fedcf.dir/feature_tests.cxx.o -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fedcf
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fedcf.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fedcf.dir/feature_tests.cxx.o  -o cmTC_fedcf 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -391,15 +391,15 @@ Linking CXX executable cmTC_12779
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e328d/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e328d.dir/build.make CMakeFiles/cmTC_e328d.dir/build
-Building CXX object CMakeFiles/cmTC_e328d.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_e328d.dir/feature_tests.cxx.o -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e328d
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e328d.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e328d.dir/feature_tests.cxx.o  -o cmTC_e328d 
+Run Build Command:"/usr/bin/make" "cmTC_b7e32/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b7e32.dir/build.make CMakeFiles/cmTC_b7e32.dir/build
+Building CXX object CMakeFiles/cmTC_b7e32.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_b7e32.dir/feature_tests.cxx.o -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b7e32
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7e32.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b7e32.dir/feature_tests.cxx.o  -o cmTC_b7e32 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -462,15 +462,15 @@ Linking CXX executable cmTC_e328d
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bdf36/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bdf36.dir/build.make CMakeFiles/cmTC_bdf36.dir/build
-Building CXX object CMakeFiles/cmTC_bdf36.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_bdf36.dir/feature_tests.cxx.o -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-Extended-Kalman-Filter-Project/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_bdf36
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdf36.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bdf36.dir/feature_tests.cxx.o  -o cmTC_bdf36 
+Run Build Command:"/usr/bin/make" "cmTC_de2d1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_de2d1.dir/build.make CMakeFiles/cmTC_de2d1.dir/build
+Building CXX object CMakeFiles/cmTC_de2d1.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_de2d1.dir/feature_tests.cxx.o -c /Users/huojunyi/biss/self-driving-car/term2/p1/CarND-p1-Extened-Kalman_filter/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_de2d1
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de2d1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_de2d1.dir/feature_tests.cxx.o  -o cmTC_de2d1 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -91,8 +91,8 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
         cout<<"1&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"<<endl;
         double px = sin(measurement_pack.raw_measurements_(1)) * measurement_pack.raw_measurements_(0);
         double py = cos(measurement_pack.raw_measurements_(1)) * measurement_pack.raw_measurements_(0);
-        double p_x = sin(measurement_pack.raw_measurements_(1)) * measurement_pack.raw_measurements_(2);
-        double p_y = cos(measurement_pack.raw_measurements_(1)) * measurement_pack.raw_measurements_(2);
+        double p_x = 0;
+        double p_y = 0;
         ekf_.x_ << px, py, p_x, p_y;
     }
     else if (measurement_pack.sensor_type_ == MeasurementPackage::LASER) {
